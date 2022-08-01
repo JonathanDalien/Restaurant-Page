@@ -2,7 +2,8 @@ function createMenu() {
     const menu = document.createElement("div")
     menu.classList.add("menu")
 
-    menu.innerHTML = `<div class='menu-item'>
+    menu.innerHTML = `
+    <div class="menu-container"><div class='menu-item'>
     <img class='test' src='./img/pizzas/pizza1.png') alt=''>
     <div class='item-content'>
         <h4>Pizza Margaritha: <span>$2.49</span></h4>
@@ -64,6 +65,7 @@ function createMenu() {
         <h4>Pizza Frutti di Mare: <span>$8.99</span></h4>
         <p>Mozarella-Käse, Tomaten, Oliven, Salami.</p>
     </div>
+</div>
 </div>`
 
     return menu;

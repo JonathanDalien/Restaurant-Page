@@ -6,7 +6,7 @@ function createHome() {
 
     const greeting = document.createElement("h1")
     greeting.classList.add("greeting");
-    greeting.textContent = "Herzlich Willkommen";
+    greeting.innerHTML = `<span class="word">Herzlich</span> Willkommen`;
 
     const greetingSub = document.createElement("h1")
     greetingSub.classList.add("greeting-sub");

@@ -13,7 +13,7 @@ homeBtn.addEventListener("click", loadHome);
 
 menuBtn.addEventListener("click", loadMenu);
 
-loadHome();
+loadMenu();
 const startBtn = document.querySelector(".btn")
 
 startBtn.addEventListener("click", loadMenu)
