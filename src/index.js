@@ -17,7 +17,7 @@ menuBtn.addEventListener("click", loadMenu);
 
 aboutBtn.addEventListener("click", loadAbout)
 
-loadMenu();
+loadHome();
 
 const startBtn = document.querySelector(".btn")
 

@@ -10,7 +10,7 @@ function createHome() {
 
     const greetingSub = document.createElement("h1")
     greetingSub.classList.add("greeting-sub");
-    greetingSub.textContent = "Mario's Restaurante";
+    greetingSub.textContent = "Ristorante Da Mario";
 
     const paragraph = document.createElement("p")
     paragraph.classList.add("paragraph");
